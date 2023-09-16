@@ -68,7 +68,7 @@ function replacesubstr($str, $search, $replace)
            else{
                $flag = 0;
              echo "Substring not found in main string";
-
+               
                return;
            }
         }

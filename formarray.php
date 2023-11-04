@@ -37,7 +37,7 @@
              
 
                <div class="insert">
-                 <label for="insertIndex">Enter Index for Insertion</label> <br/> 
+                  <label for="insertIndex">Enter Index for Insertion</label> <br/> 
                   <input type="text" name="insertIndex" id="insertIndex">
                   <br/> <br/>
                </div>
@@ -61,6 +61,7 @@
             v = e.target.value;
               if(v === "inIndex")
               {
+             
                 element.style.display = "block";
 
                 delDis.style.display = "none";

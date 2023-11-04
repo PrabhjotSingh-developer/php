@@ -35,11 +35,11 @@ switch($option)
        Deletion($arr,0);
        break;
   case "delEnd":
-    echo "<br/>After Deleting Element at End <br/> <br/>";
+    echo "<br/>After Deleting Element from End <br/> <br/>";
     Deletion($arr,count($arr)-1);
        break;
    case "delIndex":
-    echo "<br/>After Delement Element at given Index = $delIndex<br/> <br/>";
+    echo "<br/>After Deleting  Element at given Index = $delIndex<br/> <br/>";
       Deletion($arr,$delIndex);
        break;      
 }
